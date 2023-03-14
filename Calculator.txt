@@ -1,0 +1,91 @@
+package calcul2;
+
+public class Calculator {
+
+	int n1,n2,sum,sub,prod,div,rem;
+
+	public int getN1() {
+		return n1;
+	}
+
+	public void setN1(int n1) {
+		this.n1 = n1;
+	}
+
+	public int getN2() {
+		return n2;
+	}
+
+	public void setN2(int n2) {
+		this.n2 = n2;
+	}
+
+	public int getSum() {
+		return sum;
+	}
+
+	public void setSum(int sum) {
+		this.sum = sum;
+	}
+
+	public int getSub() {
+		return sub;
+	}
+
+	public void setSub(int sub) {
+		this.sub = sub;
+	}
+
+	public int getProd() {
+		return prod;
+	}
+
+	public void setProd(int prod) {
+		this.prod = prod;
+	}
+
+	public int getDiv() {
+		return div;
+	}
+
+	public void setDiv(int div) {
+		this.div = div;
+	}
+
+	public int getRem() {
+		return rem;
+	}
+
+	public void setRem(int rem) {
+		this.rem = rem;
+	}
+	
+	int add(){
+		sum=n1+n2;
+		return sum;
+	}
+	
+	int difference(){
+		sub=n1-n2;
+		return sub;
+	}
+	
+	int mult(){
+		prod=n1*n2;
+		return prod;
+	}
+	
+	
+	int quotent(){
+		div=n1/n2;
+		return div;
+	}
+	
+	int remainder(){
+		rem=n1%n2;
+		return rem;
+	}
+	
+	
+	
+}
